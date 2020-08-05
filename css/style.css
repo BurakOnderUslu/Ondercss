@@ -36,7 +36,16 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    color: #11999E;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+}
 
+a:hover {
+    color: #EAF6F6;
+}
 /********Class Identifier********/
 
 .top-container {
@@ -54,6 +63,8 @@ h3 {
 }
 
 .bottom-container {
+    background-color: #66BFBF;
+    padding: 40px 0 20px;
 }
 
 .bottom-cloud {
@@ -125,5 +136,10 @@ h3 {
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
 /********ID Identifier********/
